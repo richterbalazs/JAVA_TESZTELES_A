@@ -43,5 +43,6 @@ class ProgramTest {
 //        Assertions.assertEquals(hasab.terfogat(), program.minV().terfogat());
 //        Gomb gomb = new Gomb(1.0);
 //        Assertions.assertEquals(gomb.terfogat(), program.maxV().terfogat());
-//    }
+//    }//
+
 }
