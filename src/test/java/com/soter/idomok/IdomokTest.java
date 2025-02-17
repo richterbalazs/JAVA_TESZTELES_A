@@ -24,10 +24,10 @@ public class IdomokTest {
         assertTrue(abs, "a 'terfogat' metódus legyen abstract.");
     }
 
-//    @Test
-//    void testFajsuly(){
-//        assertEquals(0.75, FaIdom.getFajsuly());
-//    }
+    @Test
+    void testFajsuly(){
+        assertEquals(0.75, FaIdom.getFajsuly());
+    }
 //
 //    @Test
 //    void testGombTerfogat(){
