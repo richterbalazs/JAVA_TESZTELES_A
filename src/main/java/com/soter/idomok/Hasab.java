@@ -14,4 +14,16 @@ public class Hasab extends FaIdom {
     public double suly() {
         return 0.75;
     }
+
+    public int getA() {
+        return 1;
+    }
+
+    public int getB() {
+        return 2;
+    }
+
+    public int getM() {
+        return 3;
+    }
 }
