@@ -33,7 +33,7 @@ class ProgramTest {
         lista.add(new Gomb(1));
         Assertions.assertEquals(2, program.getLista().size());
     }
-//
+
 //    @Test
 //    void testSzamolasok(){
 //        Assertions.assertEquals(3.89, program.osszSuly(), 0.01);

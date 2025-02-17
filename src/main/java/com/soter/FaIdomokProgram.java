@@ -9,6 +9,8 @@ import java.util.ArrayList;
 
 public class FaIdomokProgram {
 
+    private com.soter.idomok.FaIdom FaIdom;
+
     public void ujIdom(Gomb gomb) {
     }
 
@@ -17,6 +19,10 @@ public class FaIdomokProgram {
 
     public ArrayList<FaIdom> getLista() {
         ArrayList<FaIdom> lista = new ArrayList<>();
+
+        lista.add(FaIdom);
+        lista.add(FaIdom);
+
         return lista;
     }
 
