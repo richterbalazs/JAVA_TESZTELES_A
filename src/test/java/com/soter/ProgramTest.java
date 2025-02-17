@@ -1,32 +1,38 @@
 package com.soter;
 
+import com.soter.idomok.FaIdom;
 import com.soter.idomok.Gomb;
 import com.soter.idomok.Hasab;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+
+import java.util.ArrayList;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class ProgramTest {
-//    static FaIdomokProgram program;
-//    @BeforeAll
-//    static void programIni(){
-//        Class<?> clazz = FaIdomokProgram.class;
-//        String pkg = clazz.getPackageName();
-//        assertEquals("com.soter", pkg, "a csomag 'com.soter' legyen.");
-//
-//        program = new FaIdomokProgram();
-//        program.ujIdom(new Gomb(1));
-//        program.ujIdom(new Hasab(1,1,1));
-//    }
+    static FaIdomokProgram program;
 
-//    @Test
-//    void testLista(){
-//        ArrayList<FaIdom> lista = program.getLista();
-//        Assertions.assertEquals(2, lista.size());
-//
-//        lista.add(new Gomb(1));
-//        Assertions.assertEquals(2, program.getLista().size());
-//    }
+    @BeforeAll
+    static void programIni(){
+        Class<?> clazz = FaIdomokProgram.class;
+        String pkg = clazz.getPackageName();
+        assertEquals("com.soter", pkg, "a csomag 'com.soter' legyen.");
+
+        program = new FaIdomokProgram();
+        program.ujIdom(new Gomb(1));
+        program.ujIdom(new Hasab(1,1,1));
+    }
+
+    @Test
+    void testLista(){
+        ArrayList<FaIdom> lista = program.getLista();
+        Assertions.assertEquals(2, lista.size());
+
+        lista.add(new Gomb(1));
+        Assertions.assertEquals(2, program.getLista().size());
+    }
 //
 //    @Test
 //    void testSzamolasok(){
