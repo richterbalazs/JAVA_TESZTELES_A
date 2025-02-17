@@ -35,12 +35,12 @@ public class IdomokTest {
         assertEquals(4.188, idom.terfogat(), 0.001);
     }
 //
-//    @Test
-//    void testGombSuly(){
-//        idom = new Gomb(1.0);
-//        double d = idom.suly();
-//        assertEquals(3.141, idom.suly(), 0.001);
-//    }
+    @Test
+    void testGombSuly(){
+        idom = new Gomb((int) 1.0);
+        double d = idom.suly();
+        assertEquals(3.141, idom.suly(), 0.001);
+    }
 //
 //    @Test
 //    void testHasabTerfogat(){

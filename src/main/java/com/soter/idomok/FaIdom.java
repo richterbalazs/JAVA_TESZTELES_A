@@ -7,4 +7,8 @@ public abstract class FaIdom {
     }
 
     public abstract double terfogat();
+
+    public double suly() {
+        return 3.141;
+    }
 }
