@@ -1,7 +1,7 @@
 package com.soter.idomok;
 
 public class Gomb extends FaIdom {
-    public Gomb(int i) {
+    public Gomb(double i) {
     }
 
     @Override
