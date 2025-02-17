@@ -47,12 +47,12 @@ public class IdomokTest {
         idom = new Hasab(1.0, 1.0, 1.0);
         assertEquals(1, idom.terfogat(), 0.001);
     }
-//
-//    @Test
-//    void testHasabSuly(){
-//        idom = new Hasab(1.0, 1.0, 1.0);
-//        assertEquals(0.75, idom.suly(), 0.001);
-//    }
+
+    @Test
+    void testHasabSuly(){
+        idom = new Hasab(1.0, 1.0, 1.0);
+        assertEquals(0.75, idom.suly(), 0.001);
+    }
 //
 //    @Test
 //    void testHasabParamSorrend(){

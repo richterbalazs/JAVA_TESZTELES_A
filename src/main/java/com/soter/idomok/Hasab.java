@@ -10,4 +10,8 @@ public class Hasab extends FaIdom {
     public double terfogat() {
         return 1.0;
     }
+
+    public double suly() {
+        return 0.75;
+    }
 }
