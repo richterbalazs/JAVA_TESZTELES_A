@@ -28,12 +28,12 @@ public class IdomokTest {
     void testFajsuly(){
         assertEquals(0.75, FaIdom.getFajsuly());
     }
-//
-//    @Test
-//    void testGombTerfogat(){
-//        idom = new Gomb((int) 1.0);
-//        assertEquals(4.188, idom.terfogat(), 0.001);
-//    }
+
+    @Test
+    void testGombTerfogat(){
+        idom = new Gomb((int) 1.0);
+        assertEquals(4.188, idom.terfogat(), 0.001);
+    }
 //
 //    @Test
 //    void testGombSuly(){
