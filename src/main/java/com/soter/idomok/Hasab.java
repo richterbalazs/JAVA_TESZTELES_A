@@ -1,6 +1,13 @@
 package com.soter.idomok;
 
-public class Hasab {
-    public Hasab(int i, int i1, int i2) {
+public class Hasab extends FaIdom {
+
+
+    public Hasab(double v, double v1, double v2) {
+    }
+
+    @Override
+    public double terfogat() {
+        return 1.0;
     }
 }
